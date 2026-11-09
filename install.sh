@@ -62,9 +62,7 @@ PY
 echo
 echo "Installed Claude Code Usage Statusline."
 echo
-echo "Restart Claude Code:"
-echo "  pkill -f claude 2>/dev/null || true"
-echo "  claude"
+echo "Restart Claude Code by closing the current session normally, then reopening it."
 echo
 echo "Backups saved in:"
 echo "  $BACKUP_DIR"

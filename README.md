@@ -91,7 +91,7 @@ That is it.
 Clone the repository:
 
 ```bash
-git clone https://github.com/Naveenkumar-026/claude-code-usage-statusline.git
+git clone https://github.com/consigliereX/claude-code-usage-statusline.git
 cd claude-code-usage-statusline
 ```
 
@@ -104,7 +104,7 @@ Run the installer:
 Restart Claude Code:
 
 ```bash
-pkill -f claude 2>/dev/null || true
+# Close the current Claude Code session normally, then run:
 claude
 ```
 
@@ -240,7 +240,7 @@ Confirm that `statusLine` points to:
 Then restart Claude Code:
 
 ```bash
-pkill -f claude 2>/dev/null || true
+# Close the current Claude Code session normally, then run:
 claude
 ```
 
